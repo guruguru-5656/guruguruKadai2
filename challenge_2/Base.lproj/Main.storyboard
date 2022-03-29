@@ -83,8 +83,8 @@
                     </view>
                     <connections>
                         <outlet property="calculatorSelector" destination="HvX-nN-NJ7" id="bvo-tu-7jL"/>
-                        <outlet property="inputTextField_1" destination="dav-jn-Enm" id="COx-n2-Pow"/>
-                        <outlet property="inputTextField_2" destination="AEu-bG-2iU" id="Y4w-Xo-u0p"/>
+                        <outlet property="inputTextFieldFirst" destination="dav-jn-Enm" id="COx-n2-Pow"/>
+                        <outlet property="inputTextFieldSecond" destination="AEu-bG-2iU" id="Y4w-Xo-u0p"/>
                         <outlet property="resultLavel" destination="ywA-bq-jUi" id="iVP-mb-U4l"/>
                     </connections>
                 </viewController>
