@@ -53,9 +53,6 @@
                                     <segment title="×"/>
                                     <segment title="÷"/>
                                 </segments>
-                                <connections>
-                                    <action selector="selectCalculator:" destination="BYZ-38-t0r" eventType="valueChanged" id="Hwl-TW-Y9s"/>
-                                </connections>
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -83,9 +80,9 @@
                     </view>
                     <connections>
                         <outlet property="calculatorSelector" destination="HvX-nN-NJ7" id="bvo-tu-7jL"/>
-                        <outlet property="inputTextFieldFirst" destination="dav-jn-Enm" id="COx-n2-Pow"/>
-                        <outlet property="inputTextFieldSecond" destination="AEu-bG-2iU" id="Y4w-Xo-u0p"/>
-                        <outlet property="resultLavel" destination="ywA-bq-jUi" id="iVP-mb-U4l"/>
+                        <outlet property="firstInputTextField" destination="dav-jn-Enm" id="COx-n2-Pow"/>
+                        <outlet property="resultLabel" destination="ywA-bq-jUi" id="iVP-mb-U4l"/>
+                        <outlet property="secondInputTextField" destination="AEu-bG-2iU" id="Y4w-Xo-u0p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
